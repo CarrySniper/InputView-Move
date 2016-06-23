@@ -74,6 +74,7 @@
     return YES;
 }
 
+#pragma mark - 视图将要出现
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -87,6 +88,7 @@
                                                  name:UIKeyboardWillHideNotification
                                                object:nil];
 }
+#pragma mark - 视图将要消失
 -(void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
